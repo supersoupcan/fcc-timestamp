@@ -1,0 +1,26 @@
+{
+  "name": "scc-timestamp",
+  "version": "0.0.1",
+  "description": "When prompted with a date format, returns unix and regular timestamp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "git": "^0.1.5",
+    "strftime": "^0.10.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
